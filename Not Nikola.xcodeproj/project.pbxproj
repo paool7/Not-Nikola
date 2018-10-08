@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1D7340216B21D600D5DDF0 /* Playground.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1D733F216B21D600D5DDF0 /* Playground.png */; };
 		DA559D982167C49F00149F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA559D972167C49F00149F54 /* AppDelegate.swift */; };
 		DA559D9A2167C49F00149F54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA559D992167C49F00149F54 /* ViewController.swift */; };
 		DA559D9D2167C49F00149F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA559D9B2167C49F00149F54 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA1D733F216B21D600D5DDF0 /* Playground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Playground.png; sourceTree = "<group>"; };
 		DA559D942167C49F00149F54 /* Not Nikola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Not Nikola.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA559D972167C49F00149F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA559D992167C49F00149F54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA1D733E216B21C500D5DDF0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DA1D733F216B21D600D5DDF0 /* Playground.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		DA559D8B2167C49F00149F54 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		DA559D962167C49F00149F54 /* Not Nikola */ = {
 			isa = PBXGroup;
 			children = (
+				DA1D733E216B21C500D5DDF0 /* Assets */,
 				DA559D972167C49F00149F54 /* AppDelegate.swift */,
 				DA559D992167C49F00149F54 /* ViewController.swift */,
 				DAFB11002167DA9600A22711 /* NikolaClassifier.mlmodel */,
@@ -127,6 +138,7 @@
 			files = (
 				DA559DA22167C4A000149F54 /* LaunchScreen.storyboard in Resources */,
 				DA559D9F2167C4A000149F54 /* Assets.xcassets in Resources */,
+				DA1D7340216B21D600D5DDF0 /* Playground.png in Resources */,
 				DA559D9D2167C49F00149F54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
