@@ -24,6 +24,8 @@ Labeled folders of images can then be dragged into the playground to train and t
 ## Usage
 A Core ML image analysis request will return classification results based on image input. As a result of the Nikola model being trained with a relatively low number of images, this example app only identifies an image as Nikola if it has the highest possible confidence value. 
 ```swift
+let model = try VNCoreMLModel(for: NikolaClassifier().model)
+
 let request = VNCoreMLRequest(model: model, completionHandler: { [weak self] request, error in
     DispatchQueue.main.async {
         if let results = request.results {
